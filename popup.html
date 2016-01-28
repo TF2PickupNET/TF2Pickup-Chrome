@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/popup.js"></script>
+        <link rel="stylesheet" href="css/popup.css" type="text/css">
+
+</head>
+    <body class="popup">
+        <div class="header">
+            <img src="img/icon64.png" id="logo">
+        </div>
+        <ul class="tabs">
+            <li class="tab"><div><a href="" id="six"></a><input type="checkbox" id="six-cb" class="right checkbox"></div></li>
+            <li class="tab"><div><a href="" id="hl"></a><input type="checkbox" id="hl-cb" class="right checkbox"></div></li>
+            <li class="tab"><div><a href="" id="ud"></a><input type="checkbox" id="ud-cb" class="right checkbox"></div></li>
+            <li class="tab"><div><a href="" id="bb"></a><input type="checkbox" id="bb-cb" class="right checkbox"></div></li>
+        </ul>
+        <div class="column">
+            <div class="classes" id="highlander">
+                <ul class="classes-info">
+                    <div><div class="title">HL</div><div class="map" id="hl_map"></div></div>
+                    <li>Scout<span id="hl_scout" class="count"></span></li>
+                    <li>Soldier<span id="hl_soldier" class="count"></span></li>
+                    <li>Pyro<span id="hl_pyro" class="count"></span></li>
+                    <li>Demoman<span id="hl_demo" class="count"></span></li>
+                    <li>Heavy<span id="hl_heavy" class="count"></span></li>
+                    <li>Engineer<span id="hl_engineer" class="count"></span></li>
+                    <li>Medic<span id="hl_medic" class="count"></span></li>
+                    <li>Sniper<span id="hl_sniper" class="count"></span></li>
+                    <li>Spy<span id="hl_spy" class="count"></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+        <div class="classes" id="6v6">
+            <ul class="classes-info">
+                <div><div class="title">6v6</div><div class="map" id="6v6_map"></div></div>
+                <li>Scout<span id="6v6_scout" class="count"></span></li>
+                <li>Soldier<span id="6v6_soldier" class="count"></span></li>
+                <li>Demoman<span id="6v6_demo" class="count"></span></li>
+                <li>Medic<span id="6v6_medic" class="count"></span></li>
+            </ul>
+        </div>
+        <div class="classes" id="ultiduo">
+            <ul class="classes-info">
+                <div class="title">UD<div class="map" id="ud_map"></div></div>
+                <li>Soldier<span id="ud_soldier" class="count"></span></li>
+                <li>Medic<span id="ud_medic" class="count"></span></li>
+            </ul>
+        </div>
+
+            <div class="classes" id="bball">
+                <ul class="classes-info">
+                    <div class="title">BBall<div class="map" id="bb_map"></div></div>
+                    <li>Soldier<span id="bb_soldier" class="count"></span></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </body>
+</html>
